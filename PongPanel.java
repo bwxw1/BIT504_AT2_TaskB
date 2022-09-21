@@ -9,12 +9,12 @@ import javax.swing.Timer;
 
 public class PongPanel extends JPanel implements ActionListener, KeyListener {
 
-    private final static Color BACKGROUND_COLOUR = Color.BLACK;
+    private final static Color BACKGROUND_COLOUR = Color.WHITE;
     private final static int TIMER_DELAY = 5;
-    private final static int BALL_MOVEMENT_SPEED = 2;
+    private final static int BALL_MOVEMENT_SPEED = 1;
     Ball ball;
     Paddle paddle1, paddle2;
-    private final static int POINTS_TO_WIN = 3;
+    private final static int POINTS_TO_WIN = 5;
     int player1Score = 0;
     int player2Score =0;
     Player gameWinner;
